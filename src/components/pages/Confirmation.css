@@ -1,0 +1,51 @@
+.confirmation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/images/background.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+    background-color: #181a1b; /* Fallback color */
+    color: #e8e6e3;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .light-mode .confirmation-section {
+    background-color: #ffffff; /* Light mode background color */
+    color: #000000; /* Dark mode text color */
+  }
+  
+  .container {
+    background: rgba(38, 35, 35, 0.326); /* Darker transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 850px; /* Adjust maximum width as needed */
+    width: 100%;
+  }
+  
+  .light-mode .container {
+    background: rgba(255, 255, 255, 0.7); /* Lighter transparent background */
+  }
+  
+  .card {
+    background: rgba(38, 35, 35, 0.5); /* Darker transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #e8e6e3;
+  }
+  
+  .light-mode .card {
+    background: rgba(255, 255, 255, 0.9); /* Lighter transparent background */
+    color: #000000;
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  

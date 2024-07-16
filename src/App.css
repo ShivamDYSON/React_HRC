@@ -1,0 +1,81 @@
+/* Universal box-sizing and margin/padding reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  /* Ensure no default margin/padding on body and html */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  
+  /* Specific section styling */
+  .hero-section,
+  .cards-section,
+  .footer-section,
+  .sign-up-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjusted to fit the viewport height */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .services {
+    background-image: url('/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .bookingPage {
+    background-image: url('/images/img-1.jpg');
+    background-position: center;
+    background-size: cover; /* Changed from 'fill' to 'cover' */
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-color: rgb(19, 24, 14);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    padding-bottom: 200px; /* Adjust this value to shift text upwards */
+    overflow: hidden; /* Ensure no overflow issues */
+    border: none; /* Ensure no borders */
+  }
+  
+  .sign-up img {
+    max-width: 200%; /* Adjust this value to make the GIF bigger */
+    max-height: 210%; /* Adjust this value to make the GIF bigger */
+    width: auto;
+    height: auto;
+    margin-bottom: 200px; /* Adjust this value to shift GIF upwards */
+    display: block; /* Ensures the image is displayed as a block to remove extra space */
+    border: none; /* Ensure no borders */
+  }
+  
+  .sign-up h1 {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 340px; /* Adjust this value to position the text */
+    text-align: center;
+    width: 100%;
+    text-decoration: none; /* Ensure no underline */
+    border: none; /* Ensure no borders */
+  }
+  
