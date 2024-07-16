@@ -121,12 +121,15 @@ h1 {
 
 /* Updated Button CSS */
 
-button.book-btn{
+/* button.book-btn{
   margin-left: 632px;
-}
+} */
+
+/* Updated Button CSS */
 
 .book-btn-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .book-btn {
@@ -148,7 +151,6 @@ button.book-btn{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 20px; /* Shift button towards right */
 }
 
 .book-btn::after,

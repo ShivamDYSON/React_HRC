@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom'; // Ensure you're using React Router
 import './bookingPage.css';
