@@ -67,13 +67,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/blaze.jpg'
+              src='src/components/pages/blaze.jpg'
               text='Chature Ramm lingammmm anknasfnskdfnkdsjn'
               label='SILENCEER'
               path='/sign-up'
             />
             <CardItem
-              src='images/storm.jpg'
+              src='src/components/pages/storm.jpg'
               text='Khujli wali rottiiiii kajbfbsjbfjsbj'
               label='RAJU RASTOGI'
               path='/sign-up'
@@ -81,19 +81,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/thunder.jpg'
+              src='src/components/pages/thunder.jpg'
               text='Master genious idiot fbshfudsifuesfbiu'
               label='RANCHOO'
               path='/sign-up'
             />
             <CardItem
-              src='images/lightning.jpg'
+              src='src/components/pages/lightning.jpg'
               text='ABBA Nahi Manenge'
               label='FARHAN-NITRATE'
               path='/sign-up'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='src/components/pages/img-8.jpg'
               text='HELmet chorrr abb centimeter ban gaya hai'
               label='MILLIMETER'
               path='/sign-up'

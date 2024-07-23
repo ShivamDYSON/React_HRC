@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('//public/images/background.jpg');
+    background-image: url('/src/components/pages/background.jpg');
     background-size: cover;
     background-position: center;
     background-color: #181a1b; /* Fallback color */
