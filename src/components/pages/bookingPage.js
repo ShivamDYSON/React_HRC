@@ -93,7 +93,7 @@ export default function BookingPage() { // Updated component name
                     </div>
 
                     <div className="form-btn">
-                      <button className="button-86" role="button" type="submit">Submit</button>
+                      <button className="button-86" type="submit">Submit</button>
                     </div>
 
                   </form>

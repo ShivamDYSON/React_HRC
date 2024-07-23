@@ -28,7 +28,7 @@
   }
   
   .services {
-    background-image: url('/images/img-2.jpg');
+    /* background-image: url('/images/img-2.jpg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@
   }
   
   .bookingPage {
-    background-image: url('/images/img-1.jpg');
+    background-image: url('/src/components/pages/background.jpg');
     background-position: center;
     background-size: cover; /* Changed from 'fill' to 'cover' */
     background-repeat: no-repeat;
