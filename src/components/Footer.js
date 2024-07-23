@@ -65,7 +65,7 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               HRC
-              <img src='/GIFs/horse-zootghost.gif?timestamp=20240713' alt='logo' className='footer-logo-img' />
+              <img src={`${process.env.PUBLIC_URL}/GIFs/horse-zootghost.gif`} alt='logo' className='footer-logo-img' />
             </Link>
           </div>
           <small className='website-rights'>HRC © 2024</small>

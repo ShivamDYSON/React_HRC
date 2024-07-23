@@ -50,7 +50,6 @@
 
 // export default Cards;
 
-
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
@@ -67,13 +66,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='src/components/pages/blaze.jpg'
+              src={`${process.env.PUBLIC_URL}/images/blaze.jpg`}
               text='Chature Ramm lingammmm anknasfnskdfnkdsjn'
               label='SILENCEER'
               path='/sign-up'
             />
             <CardItem
-              src='src/components/pages/storm.jpg'
+              src={`${process.env.PUBLIC_URL}/images/storm.jpg`}
               text='Khujli wali rottiiiii kajbfbsjbfjsbj'
               label='RAJU RASTOGI'
               path='/sign-up'
@@ -81,19 +80,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='src/components/pages/thunder.jpg'
+              src={`${process.env.PUBLIC_URL}/images/thunder.jpg`}
               text='Master genious idiot fbshfudsifuesfbiu'
               label='RANCHOO'
               path='/sign-up'
             />
             <CardItem
-              src='src/components/pages/lightning.jpg'
+              src={`${process.env.PUBLIC_URL}/images/lightning.jpg`}
               text='ABBA Nahi Manenge'
               label='FARHAN-NITRATE'
               path='/sign-up'
             />
             <CardItem
-              src='src/components/pages/img-8.jpg'
+              src={`${process.env.PUBLIC_URL}/images/img-8.jpg`}
               text='HELmet chorrr abb centimeter ban gaya hai'
               label='MILLIMETER'
               path='/sign-up'

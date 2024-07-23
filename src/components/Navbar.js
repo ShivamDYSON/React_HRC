@@ -36,7 +36,7 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             HRC
             <img
-              src='src/components/pages/horse-zootghost.gif'
+              src={`${process.env.PUBLIC_URL}/GIFs/horse-zootghost.gif`}
               alt='Logo'
               className='navbar-logo-img'
             />
