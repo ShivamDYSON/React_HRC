@@ -56,7 +56,7 @@ import CardItem from './CardItem';
 
 function Cards() {
   const handleButtonClick = () => {
-    window.location.href = '/bookingPage'; // Replace with your desired URL
+    window.location.href = '/React_HRC/bookingPage'; // Replace with your desired URL
   };
 
   return (
